@@ -1,13 +1,10 @@
 package com.mahindra.task;
 
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class FourthPage extends AppCompatActivity {
@@ -25,7 +22,7 @@ public class FourthPage extends AppCompatActivity {
         getSupportActionBar().hide();
 
         backbutton = findViewById(R.id.backbutton);
-        background = findViewById(R.id.background);
+        background = findViewById(R.id.backgroundss);
 
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -3,14 +3,14 @@
     <item>
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <corners
-                android:bottomLeftRadius="500dp"
+                android:bottomLeftRadius="300dp"
                 android:bottomRightRadius="0dp"
                 android:radius="1dp"
-                android:topLeftRadius="500dp"
+                android:topLeftRadius="300dp"
                 android:topRightRadius="0dp" />
             // here you have to put dimen as per reqiurement
 
-            <solid android:color="@color/colorAccent" />
+            <solid android:color="#4BD663" />
         </shape>
     </item>
     <item android:drawable="@drawable/ic_arrow_back_black_24dp" />

@@ -11,12 +11,14 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Fifth extends AppCompatActivity {
 
     private View background;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +28,10 @@ public class Fifth extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        background = findViewById(R.id.background);
+        background = findViewById(R.id.backgroundss);
+        imageView = findViewById(R.id.imageView);
 
         if (savedInstanceState == null) {
-            background.setVisibility(View.INVISIBLE);
 
             final ViewTreeObserver viewTreeObserver = background.getViewTreeObserver();
 
